@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>Ремонт</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Template Basic Images Start -->
+	<!-- <meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png"> -->
+	<!-- Template Basic Images End -->
+
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#fdca19">
+	<!-- Custom Browsers Color End -->
+
+	<link rel="stylesheet" href="css/main.min.css">
+	<link rel="stylesheet" href="libs/media.css">
+
+
+
+</head>
+
+<body>
+	<div class="burger-menu">
+	  <div class="burger"></div>
+	</div>
+	<div class="menu_show">
+				<ul>
+						<li class="animated h_pulse menu_a"><a href="#calc">КАЛЬКУЛЯТОР РЕМОНТА</a></li>
+						<li class="animated h_pulse menu_a"><a href="#how_many">ЦЕНЫ</a></li>
+						<li class="animated h_pulse menu_a"><a href="#preem">НАШИ ПРЕИМУЩЕСТВА</a></li>
+						<li class="animated h_pulse menu_a"><a href="#rabots">НАШИ РАБОТЫ</a></li>
+						<li class="animated h_pulse menu_a"><a href="#otziv">ОТЗЫВЫ</a></li>
+						<li class="animated h_pulse menu_a"><a href="#s_12">СКИДКИ</a></li>
+						<li class="animated h_pulse menu_a"><a href="#conta">КОНТАКТЫ</a></li>
+				</ul>
+		</div>
+	<header id="header">
+
+		<img class="img hiden-md" src="./img/header2.png" alt="">
+		<div class="container">
+			<div class="row menu">
+				<div class="col-md-12 col-lg-2  col-xl-2">
+					<img class="logo" src="./img/logo.png" alt="">
+				</div>
+				<div class="col-md-6 col-lg-7 col-xl-8 address align-self-center">
+					<p>
+						г. Москва, Пресненская набережная, д. 12<br>Часы работы <b>ПН-ВС 09:00 – 22:00</b>
+					</p>
+				</div>
+				<div class="col-md-6 col-lg-3 col-xl-2 phone">
+					<p>8 (499) 404-21-15</p>
+          <a href="#win_input" class="animated h_pulse but">Заказать звонок</a>
+				</div>
+			</div>
+			<div class="row headdata">
+				<div class="col-md-12 col-xl-6 offset-xl-1">
+					<div class="content">
+						<h1>Ремонт квартир, коттеджей, офисов, <span>в Москве</span></h1>
+						<div class="row buttons">
+							<div class="button1 animated">
+								<a href="#win_input">Заказать ремонт</a>
+							</div>
+							<div class="button2 animated_video">
+								<a href="#video">Посмотреть видео о нас</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="section2">
+		<div class="line"></div>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6">
+					<h1>Почему ремонт выгодно заказать у нас?</h1>
+				</div>
+			</div>
+			<div class="row">
+					<div class="col-md-6 col-lg-3 block_2 animated_m">
+						<img src="./img/ach_1.png" alt="">
+						<h2>Профессиональные работники</h2>
+						<div class="m-line"></div>
+						<p>Все наши мастера имеют сертификаты специалистов и более чем 10-ти летний опыт работы</p>
+					</div>
+					<div class="col-md-6 col-lg-3 block_2 animated_m">
+						<img src="./img/ach_2.png" alt="">
+						<h2>Опыт работы с 2006 года</h2>
+						<div class="m-line"></div>
+						<p>За это время мы стали настоящими профессионалами своего дела</p>
+					</div>
+					<div class="col-md-6 col-lg-3 block_2 animated_m">
+						<img src="./img/ach_3.png" alt="">
+						<h2>1728 счастливых клиентов</h2>
+						<div class="m-line"></div>
+						<p>Более 1728 клиентов мы сделали счастливыми за время нашей работы, в их ряду можете быть и Вы</p>
+					</div>
+					<div class="col-md-6 col-lg-3 block_2 animated_m">
+						<img src="./img/ach_4.png" alt="">
+						<h2>Всегда соблюдаем сроки договора</h2>
+						<div class="m-line"></div>
+						<p>Все сроки работ прописаны в договоре. За несоблюдение сроков большие штрафные санкции</p>
+					</div>
+				</div>
+			</div>
+			<div class="form_item">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-md-6 col-lg-4 col-10 form" id="win_input">
+							<h1><b>Оставьте заявку</b><br>и мы перезвоним Вам в течение 1-й минуты</h1>
+							<h3>Мы можем показать Вам наши объекты, на которых мы ведем работу, чтобы вы могли сами убедиться в высоком качестве наших услуг</h3>
+							<form action="post.php" method="post">
+								<p><b>Ваше имя</b></p>
+								<input name="type" type="text" value="1" style="display: none">
+								<input name="name" type="text" placeholder="    Ярослав" required="required">
+								<p><b>Ваш телефон</b></p>
+								<input name="phone" type="text" placeholder="    +7(___)-___-__-__" required="required">
+								<div class="check">
+										<input name="check" class="check_but" type="checkbox" checked="" required="required">
+										<p style="padding-top: 0">Я даю согласие на обработку персональных данных в соответствии с законом</p>
+								</div>
+								<button class="inpt animated" type="submit">Заказать консультацию<span><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span></button>
+							</form>
+						</div>
+					</div>
+				</div>
+				</div>
+		</div>
+	</section>
+	<section class="section3">
+		<div class="container">
+			<div class="row justify-content-md-center">
+				<div class="col-md-6">
+					<h1>Наши партнеры</h1>
+				</div>
+			</div>
+		</div>
+		<div class="slide">
+			<div class="owl-carousel slide-one owl-theme">
+  		  <div class="item"><img src="./img/carousel/1.png" alt=""></div>
+  		  <div class="item"><img src="./img/carousel/2.png" alt=""></div>
+  		  <div class="item"><img src="./img/carousel/3.png" alt=""></div>
+  		  <div class="item"><img src="./img/carousel/4.png" alt=""></div>
+  		  <div class="item"><img src="./img/carousel/5.png" alt=""></div>
+  		  <div class="item"><img src="./img/carousel/6.png" alt=""></div>
+			</div>
+		</div>
+	</section>
+	<section class="section4" id="calc">
+		<div class="container">
+			<div class="row justify-content-md-center">
+				<div class="col-md-8">
+					<h1>Калькулятор стоимости ремонта</h1>
+				</div>
+			</div>
+		</div>
+		<div class="calc container">
+			<div class="row">
+				<h6>Тип помещения</h6>
+			</div>
+			<div class="row slot ">
+				<div class="col-md-12 col-xl-4">
+							<input name="type" id="1" type="radio" checked="">
+							 <label for="1">Квартира</label>
+							 <input name="type" id="2" type="radio">
+							 <label for="2">Коттедж</label>
+							 <input name="type" id="3" type="radio">
+							 <label for="3">Офис</label>
+				</div>
+				<div class="col-md-62 col-xl-2 ff">
+					<p>Метраж помещения:</p>
+				</div>
+				<div class="col-md-12 2 col-xl-6" style="position: relative; height: 90px">
+					<input class="polz" type="text" min="10" max="300" step="1" value="56">
+					<p class="value"><span>56</span> м<sup>2</sup></p>
+				</div>
+			</div>
+			<div class="row">
+				<h6>Здание</h6>
+			</div>
+			<div class="row slot">
+				<div class="col-md-6 col-lg-4">
+							<input name="bild" id="4" type="radio" checked="">
+							 <label for="4">Новостройка</label>
+							 <input name="bild" id="5" type="radio">
+							 <label for="5">Вторичка</label>
+				</div>
+			</div>
+			<div class="row">
+				<h6>Вид ремонта</h6>
+			</div>
+			<div class="row slot">
+				<div class="col-md-5">
+					<input name="vid" id="6" type="radio">
+					<label for="6">Косметический</label>
+					<input name="vid" id="7" type="radio">
+					<label for="7">Капитальный</label>
+					<input name="vid" id="8" type="radio">
+					<label for="8">Эксклюзивный</label>
+				</div>
+			</div>
+			<div class="row summ">
+					<p class="item">Стоимость работ:<span> <span>0</span> руб</span></p>
+					<p class="item">Стоимость черновых материалов:<span> <span>0</span> руб</span></p>
+					<p class="item">Итоговая стоимость: <span><span>0</span> руб</span></p>
+			</div>
+			<div class="row">
+				<a class="calc_but animated" href="#win_input">Заказать ремонт</a>
+			</div>
+		</div>
+	</section>
+	<section class="section5" id="how_many">
+		<div class="container">
+			<div class="row justify-content-md-center">
+				<div class="col-md-8">
+					<h1>Ценовые категории ремонта</h1>
+				</div>
+			</div>
+			<div class="row justify-content-md-center">
+				<div class="col-md-4">
+					<p>Выбирайте готовые решения у нас лучшее соотношение цены и качества</p>
+				</div>
+			</div>
+			<div class="row remont">
+				<div class="window_stoim" style="display: none;">
+             <div class="but_close animated h_pulse ddsw"><i class="fa fa-times" aria-hidden="true"></i></div>
+              <p>В стоимость входит:</p><br>
+              <ul>
+                  <li>Демонтаж старых покрытий</li>
+                  <li>Замена сантехнических коммуникаций</li>
+                  <li>Замена электропроводки</li>
+                  <li>Шпатлевание стен и потолка</li>
+                  <li>Укладка напольных покрытий</li>
+                  <li>Покраска потолка или натяжной потолок</li>
+                  <li>Покраска стен или оклейка обоями</li>
+                  <li>Установка сантехники</li>
+                  <li>Уборка помещения и вынос мусора</li>
+              </ul>
+              <p><i>И другие работы по согласованию...</i></p>
+          </div>
+					<div class="window_stoim" style="display: none;">
+             <div class="but_close animated h_pulse ddsw"><i class="fa fa-times" aria-hidden="true"></i></div>
+              <p>В стоимость входит:</p><br>
+              <ul>
+                  <li>Демонтаж старых покрытий</li>
+                  <li>Перепланировка</li>
+                  <li>Монтаж инженерных коммуникаций и оборудования (сантехника, электрика, вентиляция, слаботочные системы)</li>
+                  <li>Устройство стен, перегородок и потолков</li>
+                  <li>Замена дверей и окон</li>
+                  <li>Выравнивание всех поверхностей (стен, полов и потолков)</li>
+                  <li>Качественная отделка всех поверхностей</li>
+                  <li>Укладка напольной и настенной плиточной облицовки</li>
+                  <li>Установка систем контроля доступа и видеонаблюдения</li>
+                  <li>Уборка помещения и вынос мусора</li>
+              </ul>
+              <p><i>И другие работы по согласованию...</i></p>
+          </div>
+					<div class="window_stoim" style="display: none;">
+             <div class="but_close animated h_pulse ddsw"><i class="fa fa-times" aria-hidden="true"></i></div>
+              <p>В стоимость входит:</p><br>
+              <ul>
+                  <li>Разработка индивидуального дизайн-проекта интерьера</li>
+                  <li>Демонтаж старых покрытий</li>
+                  <li>Перепланировка</li>
+                  <li>Монтаж инженерных коммуникаций и оборудования</li>
+                  <li>Устройство стен, перегородок и потолков</li>
+                  <li>Замена дверей и окон</li>
+                  <li>Выравнивание всех поверхностей (стен, полов и потолков)</li>
+                  <li>Качественная отделка дорогостоящими материалами</li>
+                  <li>Установка систем контроля доступа и видеонаблюдения</li>
+                  <li>Уборка помещения и вынос мусора</li>
+                  <li>Сборка и расстановка мебели</li>
+                  <li>Подключение аудио-видео, Бытовой и компьютерной техники</li>
+
+              </ul>
+              <p><i>И другие работы по согласованию...</i></p>
+          </div>
+					<div class="window_stoim" style="display: none;">
+             <div class="but_close animated h_pulse ddsw"><i class="fa fa-times" aria-hidden="true"></i></div>
+              <p>В стоимость входит:</p><br>
+              <ul>
+                  <li>У нас работают профессиональные дизайнеры с многолетнем опытом работы, которые предоставят Вам разные варианты дизайн-проектов, помогут с мебелью, материалами, проконтролируют все работы подрядчиков по выполнению ремонта помещения</li>
+
+              </ul>
+          </div>
+				<div class="col-md-6 col-lg-3 animated_m">
+					<div class="block_2">
+						<h2><span>от</span> <b>2500</b> руб. м2</h2>
+						<p>Косметический</p>
+						<a class="inpt rem_but"  href="#win_input">Заказать</a>
+						<a class="stoimo">Что входит в стоимость?</a>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 animated_m">
+					<div class="block_2">
+						<h2><span>от</span> <b>4500</b> руб. м2</h2>
+						<p>Капитальный</p>
+						<a class="inpt rem_but"  href="#win_input">Заказать</a>
+						<a class="stoimo">Что входит в стоимость?</a>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 animated_m">
+					<div class="block_2">
+						<h2><span>от</span> <b>6500</b> руб. м2</h2>
+						<p>Эксклюзивный</p>
+						<a class="inpt rem_but"  href="#win_input">Заказать</a>
+						<a class="stoimo">Что входит в стоимость?</a>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 animated_m">
+					<div class="block_2">
+						<h2><span>от</span> <b>1100</b> руб. м2</h2>
+						<p>Дизайн проект</p>
+						<a class="inpt rem_but"  href="#win_input">Заказать</a>
+						<a class="stoimo">Что входит в стоимость?</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section6" id="preem">
+
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-8">
+					<h1>Наши преимущества</h1>
+				</div>
+			</div>
+		<div class="priem">
+			<div class="row justify-content-center">
+				<div class="col-3 col-lg-1 item item1 animated">
+					<div class="content">
+						<h5>Мастера с опытом от 10 лет</h5>
+						<div class="sircle">1</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-2 col-12 item item2 animated">
+					<div class="content">
+						<h5>Работаем без предоплат.</h5>
+						<div class="sircle">2</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-12 offset-lg-3 item3 item animated">
+					<div class="content">
+						<h5>Гарантия по Договору 5 лет.</h5>
+						<div class="sircle">3</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-12 item item4 animated">
+					<div class="content">
+						<h5>Организуем закупку материала.</h5>
+						<div class="sircle">4</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-12 offset-lg-1 item5 item animated">
+					<div class="content">
+						<h5>Цена в договоре «фикс» и не меняется!</h5>
+						<div class="sircle">5</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-12 item item-left item6 animated">
+					<div class="content">
+						<h5>Ежедневный отчёт по работам.</h5>
+						<div class="sircle">6</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-12  item item7 item-left animated">
+					<div class="content">
+						<h5>Замер и смета – бесплатная услуга!</h5>
+						<div class="sircle">7</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+			<div class="row justify-content-md-center  hidden">
+				<div class="hidden-md-down col-lg-3 center">
+					<img src="./img/m_2.png">
+					<h1>ALSERO</h1>
+					<h3>РЕМОНТ ПОМЕЩЕНИЙ</h3>
+				</div>
+			</div>
+			<div class="row justify-content-md-center hidden">
+				<div class="hidden-md-down col-lg-3 logotipe hidden">
+					<h1>ALSERO</h1>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<section class="section7 hidden-bg" id="rabots">
+		<div class="container">
+			<div class="window_pic row" style="display: none">
+	          <div class="but_close animated h_pulse"><i class="fa fa-times" aria-hidden="true"></i></div>
+						<div class="col-md-6"><img class="animated h_pulse" src="./img/work/1.JPG" alt=""></div>
+						<div class="col-md-6"><img class="animated h_pulse" src="./img/work/2.JPG" alt=""></div>
+						<div class="col-md-6"><img class="animated h_pulse" src="./img/work/3.JPG" alt=""></div>
+						<div class="col-md-6"><img class="animated h_pulse" src="./img/work/4.JPG" alt=""></div>
+						<div class="col-md-6"><img class="animated h_pulse" src="./img/work/5.JPG" alt=""></div>
+						<div class="col-md-6"><img class="animated h_pulse" src="./img/work/6.JPG" alt=""></div>
+						<div class="col-md-6"><img class="animated h_pulse" src="./img/work/7.JPG" alt=""></div>
+						<div class="col-md-6"><img class="animated h_pulse" src="./img/work/8.JPG" alt=""></div>
+						<div class="col-md-6"><img class="animated h_pulse" src="./img/work/9.JPG" alt=""></div>
+						<div class="col-md-6"><img class="animated h_pulse" src="./img/work/10.JPG" alt=""></div>
+						<div class="col-md-6"><img class="animated h_pulse" src="./img/work/11.JPG" alt=""></div>
+						<div class="col-md-6"> <img class="animated h_pulse" src="./img/work/12.JPG" alt=""></div>
+	       </div>
+			<div class="row justify-content-md-center">
+				<div class="col-md-8">
+					<h1>Наши работы</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 content">
+					<h3>ЗДЕСЬ МОЖЕТ БЫТЬ ИМЕННО ВАШ РЕМОНТ</h3>
+					<p>На сайте представлено всего несколько фотографий некоторых наших работ. По вашей просьбе мы можем выслать вам на электронную почту полные фото-отчёты работ на объектах разной ценовой категории</p>
+					<p class="all">Смотрите все наши работы</p>
+				</div>
+				<div class="col-md-7 offset-md-1 slider">
+					<div class="owl-carousel slide-two owl-theme">
+						<div class="item">
+							<img class="img-fluid" src="./img/work/1.JPG" alt="">
+						</div>
+						<div class="item">
+							<img class="img-fluid" src="./img/work/2.JPG" alt="">
+						</div>
+						<div class="item">
+							<img class="img-fluid" src="./img/work/3.JPG" alt="">
+						</div>
+						<div class="item">
+							<img class="img-fluid" src="./img/work/4.JPG" alt="">
+						</div>
+						<div class="item">
+							<img class="img-fluid" src="./img/work/5.JPG" alt="">
+						</div>
+						<div class="item">
+							<img class="img-fluid" src="./img/work/6.JPG" alt="">
+						</div>
+						<div class="item">
+							<img class="img-fluid" src="./img/work/7.JPG" alt="">
+						</div>
+						<div class="item">
+							<img class="img-fluid" src="./img/work/8.JPG" alt="">
+						</div>
+						<div class="item">
+							<img class="img-fluid" src="./img/work/9.JPG" alt="">
+						</div>
+						<div class="item">
+							<img class="img-fluid" src="./img/work/10.JPG" alt="">
+						</div>
+						<div class="item">
+							<img class="img-fluid" src="./img/work/11.JPG" alt="">
+						</div>
+						<div class="item">
+							<img class="img-fluid"  src="./img/work/12.JPG" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section8">
+		<div class="container">
+			<div class="row justify-content-md-center">
+				<div class="col-md-6 col-lg-4 form">
+					<h1><b>Закажите бесплатный</b><br>выезд замерщика</h1>
+					<h3>И получите уникальное «Антикризисное» предложение по ремонту Вашей квартиры с - 15% скидкой</h3>
+					<form action="post.php" method="post">
+						<p><b>Ваше имя</b></p>
+            <input name="type" type="text" value="1" style="display: none">
+            <input name="name" type="text" placeholder="    Ярослав" required="required">
+            <p><b>Ваш телефон</b></p>
+            <input name="phone" type="text" placeholder="    +7(___)-___-__-__" required="required">
+            <div class="check">
+                <input name="check" class="check_but" type="checkbox" checked="" required="required">
+                <p style="padding-top: 0">Я даю согласие на обработку персональных данных в соответствии с законом</p>
+            </div>
+            <button class="inpt" type="submit">Вызвать замерщика<span><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span></button>
+          </form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section9">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<img class="img-fluid credit-card" src="./img/cards.png" alt="">
+				</div>
+				<div class="col-md-6 left-conteiner">
+					<h2>Беспроцентная рассрочка</h2>
+					<h4>Условия предоставления рассрочки:</h4>
+					<div class="item">
+						<h5>Первый взнос</h5>
+						<p>Первый взнос может быть любым, какой вы захотите — от 0% до 50%.</p>
+					</div>
+					<div class="item">
+						<h5>Без процентов и переплат</h5>
+						<p>Заказывая ремонт квартиры, офиса, коттеджа или другого помещения у нас в рассрочку, Вы ничего не платите за пользование рассрочкой. Все затраты по рассрочке мы берем на себя.</p>
+					</div>
+					<div class="item">
+						<h5>Срок рассрочки</h5>
+						<p>Срок рассрочки может быть от 1 мес до 12 мес.</p>
+					</div>
+					<div class="item">
+						<h5>Быстрое и простое оформление рассрочки</h5>
+						<p>Рассрочка оформляется за 15 минут по 1 документу: паспорту РФ. Оформление происходит в нашем офисе.</p>
+					</div>
+					<div class="item">
+						<h5>Сумма рассрочки</h5>
+						<p>Сумма рассрочки может быть любой от 5000 р. до 200 000 р.</p>
+					</div>
+					<div class="item">
+						<h5>Удобно вносить платежи</h5>
+						<p>Платежи можно вносить как через банк, так и через терминалы по всей России.</p>
+					</div>
+					<a class="but animated" href="#win_input">Узнать условия</a>
+				</div>
+			</div>
+			<div class="row">
+				<p class="bottom-text">Процедура оформления очень просто: вам есть 18 лет, вы житель РФ, у вас есть постоянная прописка, есть с собой паспорт - тогда мы делаем заявку в банк и через несколько минут получаем одобрение. Распечатываем и подписываем договор.</p>
+			</div>
+		</div>
+	</section>
+	<section class="section10 section_9" id="otziv">
+		<div class="container">
+			<div class="row justify-content-md-center">
+				<div class="col-md-8">
+					<h1>Отзывы наших покупателей</h1>
+				</div>
+			</div>
+			<div class="after"></div>
+ 			<div class="before"></div>
+       <div class="slider row">
+           <div class="block_9 small">
+
+             <div class="user_video"><iframe width="100%"  src="https://www.youtube.com/embed/VOHczpQkdjI?start=4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><div class="down"></div></div>
+              <h4>"ЭЛИТНЫЙ" ремонт в старом фонде (2-х комнатная квартира). Были произведены демонтажные, перепланировочные работы. Произведены монтажные и отделочные работы согласно "дизайн-проекта с 3D визуализацией".</h4>
+              <p></p>
+              <p class="data">21.02.2018</p>
+           </div>
+
+           <div class="block_9 ">
+
+             <div class="user_video"><iframe width="100%"  src="https://www.youtube.com/embed/iDTLLBN-f0A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><div class="down"></div></div>
+              <h4>"ЕВРО" ремонт в новостройке (2-х комнатная квартира). На объекте были выполнены полностью по "дизайн-проекту" монтажные и ремонтно-отделочные работы. Монтаж систем кондиционирования.</h4>
+              <p></p>
+              <p class="data">21.02.2018</p>
+
+           </div>
+            <div class="block_9 active">
+
+             <div class="user_video"><iframe width="100%" src="https://www.youtube.com/embed/use2odp0iWw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><div class="down"></div></div>
+              <h4>Ремонт в двухкомнатной квартире в сжатые сроки</h4>
+              <p></p>
+              <p class="data">21.02.2018</p>
+           </div>
+            <div class="block_9 ">
+
+             <div class="user_video"><iframe width="100%" src="https://www.youtube.com/embed/b5UhlKv3ARU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><div class="down"></div></div>
+              <h4>з-х комнатная квартира. Исправление на объекте ошибок предыдущего подрядчика. Срок выполнения всех работ - 2 месяца.</h4>
+              <p></p>
+              <p class="data">21.02.2018</p>
+           </div>
+           <div class="block_9 small">
+
+             <div class="user_video"><iframe width="100%" src="https://www.youtube.com/embed/Rd_pC9GNdSY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><div class="down"></div></div>
+              <h4>3-х комнатная квартира. Комплексный ремонт «под ключ». 75 квадратных метров.</h4>
+              <p></p>
+              <p class="data">21.02.2018</p>
+           </div>
+       </div>
+			 <div class="before mobile mobile-before">
+				>
+			 </div>
+			 <div class="after mobile mobile-after">
+				<
+			 </div>
+
+			<div class="row justify-content-md-center">
+				<div class="col-md-4 col-lg-3">
+					<a href="#win_input" class="inpt animated">Хотите такой же ремонт?</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section11 section_10">
+		<div class="container">
+			<div class="row justify-content-md-center">
+				<div class="col-md-8">
+					<h1>Ответы на вопросы</h1>
+				</div>
+			</div>
+			<div class="row justify-content-md-center">
+				<div class="col-md-8">
+					<ul>
+           <li><b>01.</b> Какие гарантии вы даёте своим клиентам?  <span class="arr"><i class="fa fa-chevron-right" aria-hidden="true"></i></span></li>
+           <div class="inform" style="display: none;">
+               <p>С каждым нашим клиентом мы заключаем официальный договор, в котором чётко прописываем гарантии на все выполненные работы. Гарантии действуют в течение 5 (пяти) лет с момента сдачи работ. Так же, подробно прописываем нашу ответственность за качество и большие штрафы за просрочку сдачи работ.
+               </p>
+           </div>
+           <li><b>02.</b>       Могу ли я доверять вашим рабочим?  <span class="arr"><i class="fa fa-chevron-right" aria-hidden="true"></i></span></li>
+           <div class="inform" style="display: none;">
+               <p>В нашей компании работают только опытные специалисты, которые имеют все необходимые сертификаты качества и прошли соответствующее обучение. С опытом работы не менее 10 лет. Наши бригады состоят как из отделочников «универсалов», так и отлаженные «составные» из специалистов узких проф. навыков.</p>
+           </div>
+           <li><b>03.</b>       Нужно ли заниматься покупкой материалов? <span class="arr"><i class="fa fa-chevron-right" aria-hidden="true"></i></span></li>
+           <div class="inform" style="display: none;">
+               <p>Нет, вам это совершенно не нужно делать. По вашему желанию мы полностью берем на себя покупку всех необходимых материалов. Более того, мы даже сможем предложить вам на них хорошую скидку. Материалы доставим на объект нашими силами.</p>
+           </div>
+           <li><b>04.</b>       Нужно ли мне заниматься вывозом мусора?  <span class="arr"><i class="fa fa-chevron-right" aria-hidden="true"></i></span></li>
+           <div class="inform" style="display: none;">
+               <p>Нет. Мы возьмем на себя все заботы, по вывозу строительного мусора. Мы гарантируем вам аккуратный и чистый ремонт.</p>
+           </div>
+           <li><b>05.</b>Сколько будет длиться ремонт?<span class="arr"><i class="fa fa-chevron-right" aria-hidden="true"></i></span></li>
+           <div class="inform" style="display: none;">
+               <p>Зависит всё от площади объекта, сложности и времени года. Ремонт объекта “под ключ”, площадью 30-50 кв. м. в среднем производиться за 1-2 месяца. Все сроки выполнения работ указываются в договоре и обсуждаются с Заказчиком.</p>
+           </div>
+           <li><b>06.</b>Какие строительные материалы Вы используете? Какого качества?<span class="arr"><i class="fa fa-chevron-right" aria-hidden="true"></i></span></li>
+           <div class="inform" style="display: none;">
+               <p>Мы используем только проверенные и оригинальные строительные материалы. Более того, мы не видим абсолютно никаких причин для использования неоригинальных и низкокачественных стройматериалов. Мы не можем давать гарантию на все виды работ, если будем использовать некачественные материалы. Это просто не в наших интересах. Перечень используемых материалов прописывается в смете.</p>
+           </div>
+           <li><b>07.</b>       Нужно ли вносить предоплату/аванс? <span class="arr"><i class="fa fa-chevron-right" aria-hidden="true"></i></span></li>
+           <div class="inform" style="display: none;">
+               <p>Нет! После определения объемов предстоящих работ, вся работа делится на определенное количество этапов, оплата по которым происходит после сдачи определенного этапа. У нас действует постоплатная система расчетов, поэтому Вы оплачиваете только выполненные работы. Таким образом, мы попытались исключить для Вас все риски, включая невыполнение части работ.</p>
+           </div>
+           <li><b>08.</b>Возможно ли изменение стоимости ремонтных работ во время ремонта?<span class="arr"><i class="fa fa-chevron-right" aria-hidden="true"></i></span></li>
+           <div class="inform" style="display: none;">
+               <p>После расчета стоимости ремонтных работ, мы подготавливаем договор, в котором четко указаны виды ремонтных работ и стоимость их проведения. Цена остается неизменной и не может быть пересмотренной. Исключение составляют случаи, когда во время ремонта возникает необходимость в проведении дополнительных работ, не предусмотренных договором подряда. В этом случае, работы должны быть оплачены отдельно, для чего составляется дополнительное соглашение к договору. Таким образом, стоимость квадратного метра в начале ремонтных работ не может отличаться от стоимости квадратного метра по завершении данных работ.</p>
+           </div>
+       </ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section12" id='s_12'>
+		<div class="container">
+			<div class="row justify-content-center">
+				<h1>Выбирите свою скидку</h1>
+			</div>
+			<div class="row">
+				<div class="col-md-6 sale">
+					<div class="line"></div>
+          <h3 class="sale_zagolovok">СКИДКА ДЛЯ ПЕНСИОНЕРОВ, ВЕТЕРАНОВ, ИНВАЛИДОВ</h3>
+          <p class="sale_text">Скидка предоставляется при предоставлении подтверждающих документов. Скидка является многоразовой и может использоваться при повторных обращением за ремонтно-отделочными работами</p>
+          <a class="inpt sale_but animated" href="#win_input">Получить скидку</a>
+				</div>
+				<div class="col-md-6">
+					<div class="sale_2">
+						<div class="box_sale animated h_pulse">1</div>
+						<div class="box_sale animated h_pulse">2</div>
+						<div class="box_sale animated h_pulse active">3</div>
+						<div class="content">
+							<p class="b bbg">
+									<span>
+											<span class="first_percent">15</span><b class="percent">%</b><br>
+									</span>
+									<b class="sale_po">скидка по смете</b>
+							</p>
+							<p class="b">
+									<span>
+											<span class="second_percent">5</span>%<br>
+									</span>
+									скидка на материалы<br>
+							</p>
+							<p class="who">Пенсионерам,ветеранам, инвалидам</p>
+						</div>
+					</div>
+				 </div>
+			</div>
+		</div>
+	</section>
+	<section class="section13" id="conta">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-6">
+					<h1 class="sech1">Заходите к нам в гости</h1>
+				</div>
+			</div>
+			<div class="row">
+					<div class="col-md-5 col-lg-4 offset-md-1 address">
+						<div class="content">
+							<div class="text">
+								<h2><b>Строительная <br>компания «<span>Алсеро</span>»<br></b>Москва</h2>
+								<p>г. Москва, Пресненская набережная, д. 12</p>
+								<p>8 (499) 404-21-15</p>
+								<p>8 (800) 511-87-04</p>
+								<p>info@alserostroy.ru</p>
+							</div>
+							<a class="btn" href="">Написать нам</a>
+						</div>
+					</div>
+			</div>
+		</div>
+		<!-- <div class="row justify-content-center">
+			<div class="col-3">
+				<a href="#header" class="animated h_pulse up">
+          <p class="str"><i class="fa fa-chevron-up" aria-hidden="true"></i></p>
+          <p class="">наверх</p>
+				</a>
+			</div>
+		</div> -->
+		<div class="row justify-content-center vopros">
+			<div class="col-md-8">
+				<h1>Остались вопросы?</h1>
+			</div>
+		</div>
+			<form action="post.php" method="post">
+			 <div class="form container">
+				 <div class="row justify-content-center">
+				 	<div class="col-md-5 col-lg-4 offset-lg-1">
+						<p>Ваше имя</p>
+						<input name="name" type="text" placeholder="Ярослав" required="required">
+						<p>Ваш email</p>
+						<input name="email" type="text" placeholder="Yaroslav@mail.ru" required="required">
+						<p>Ваш телефон</p>
+						<input name="phone" type="text" placeholder="+7 (___)-____-__-__" required="required">
+				 	</div>
+					<div class="col-md-6 col-lg-4">
+						<input name="text" class="text_f" type="text" placeholder="Введите ваше сообщение*" required="required">
+					</div>
+					<div class="col-md-12">
+						<button class="inpt animated" type="submit">Отправить<span><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span></button>
+					</div>
+				 </div>
+			  </div>
+			</form>
+		<div class="map"><iframe src="https://snazzymaps.com/embed/54255" width="100%" height="1059px" style="border:none;"></iframe></div>
+	</section>
+	<footer class="navbar-fixed-bottom ">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2">
+					<img class="logo" src="./img/logo.png" alt="">
+				</div>
+				<div class="col-md-3 offset-md-7 col-lg-2 offset-lg-8">
+					<p class="phone">8 (499) 404-21-15</p>
+					<a href="#win_input" class="callback animated">Заказать дзвонок</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<section id="video" class="video" style="display : none">
+		<div class="container video_container">
+			<div class="row">
+				<div class="col-md-12">
+					<iframe class="iframe" src="https://www.youtube.com/embed/8r0w-rTRM4s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					<div class="but_close animated animated_video_close h_pulse ddsw"><i class="fa fa-times" aria-hidden="true"></i></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
