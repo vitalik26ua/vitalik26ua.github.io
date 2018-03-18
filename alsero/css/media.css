@@ -1,0 +1,320 @@
+@media only screen and (max-width: 768px) {
+    .img {
+        display: none;
+    }
+    .sircle,.hidden{
+      display: none;
+    }
+    .hidden-bg{
+      background-image: url('../img/slidr_bg2222.png')
+    }
+    .section4 .calc_but{
+        left: 50%;
+        margin-left: -25%;
+    }
+    .section4 .summ{
+      height: auto;
+    }
+    footer{
+      height: auto;
+    }
+    .section7 .slider .owl-carousel{
+      width: 100%
+    }
+    .section9 .but{
+      width: 80%;
+      margin-top: 30px;
+      margin: auto;
+    }
+    .section9 .but{
+      width: 100%;
+      margin-top: 15px
+    }
+    .section4 h6{
+      padding: 0 15px
+    }
+    .section2 .form_item {
+      background-image: none
+    }
+    .section8{
+      background-image: none
+    }
+    .section9 .bottom-text{
+      padding: 0 15px
+    }
+    .section4 .slot .value{
+      padding: 0 10px
+    }
+    .section5 .block_2:hover .inpt{
+      background-position-x: 90%
+    }
+    .section13 form .form .inpt{
+      width: 60%
+    }
+    .section12 .sale_2{
+      width: 280px;
+      height: 280px
+    }
+    .section13 .up{
+      width: 100%
+    }
+    .imgg{
+      display: none;
+    }
+    /* .section10 .slider .block_9{
+      display: none
+    } */
+    .section10 .slider .small{
+      display: none;
+    }
+    .section10 .slider .block_9{
+      width: 40%
+    }
+    .section10 .slider .block_9:nth-child(2) {
+      left: 0;
+      z-index: 10;
+    }
+    .section10 .slider .block_9:nth-child(4) {
+      right: 0;
+      z-index: 10;
+    }
+    .section10 .slider .active{
+      display: block;
+      width: 50%;
+      margin-left: -25%;
+    }
+    /* .section10 .slider .block_9 {
+      height: 315px;
+      top: 0;
+      left: 0;
+      margin-top: -157.5px;
+      width: 99%;
+      margin: auto;
+      background-color: #f9f9f9;
+      -webkit-border-radius: 7px;
+      border-radius: 7px;
+      -webkit-box-shadow: 0 0 2.313rem rgba(46,44,38,.15);
+      box-shadow: 0 0 2.313rem rgba(46,44,38,.15);
+      position: absolute;
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-repeat: no-repeat;
+    } */
+  .section6 .item{
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0
+  }
+  .section6 .item .content{
+    height: 100%;
+    top: 0;
+    position: absolute;
+    left: 50%;
+    width: 180px;
+    margin-left: -90px;
+    height: 80px;
+    background-image: url(../img/section_6_r_diag.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+  }
+  .section6 .item{
+    background-image: none;
+    margin-bottom: 25px
+  }
+  .section6 h5{
+    margin-left: 30px;
+    text-align: left;
+  }
+  .section6 .item-left h5{
+    text-align: left;
+    margin-left: 30px
+  }
+
+  .section7 .slider .owl-nav{
+    display: none;
+  }
+  .section7 .all {
+    color: #2ea9f7;
+    font-family: "Neo Sans Pro";
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: left;
+    line-height: 5rem;
+    text-decoration: underline;
+}
+.section11 ul li{
+  padding: 0 15px
+}
+.section11 .inform{
+  margin-left: 0
+}
+.section12 .sale a {
+    color: #fdca19;
+    font-family: "Neo Sans Pro";
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.125rem;
+    display: block;
+    cursor: pointer;
+    background-image: url(../img/arrow-left.png);
+    background-repeat: no-repeat;
+    background-position: 42%,50%;
+}
+.section12 .sale{
+  margin-bottom: 25px
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  .section13 .map {
+    position: absolute;
+    width: 100%;
+    top: 90px;
+}
+  .section12 .sale a {
+    color: #fdca19;
+    font-family: "Neo Sans Pro";
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.125rem;
+    display: block;
+    cursor: pointer;
+    background-image: url(../img/arrow-left.png);
+    background-repeat: no-repeat;
+    background-position: 30%,50%;
+  }
+  header .img {
+    margin-top: 41.5%;
+  }
+  .section4 .slot {
+    height: auto;
+  }
+  .section6 .center img {
+    position: absolute;
+    top: -25%;
+    left: -15%;
+}
+.section7 .slider .owl-nav{
+  margin-top: 11px
+}
+}
+
+@media only screen and (max-width: 320px) {
+  .section12 .sale a {
+    color: #fdca19;
+    font-family: "Neo Sans Pro";
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.125rem;
+    display: block;
+    cursor: pointer;
+    background-image: url(../img/arrow-left.png);
+    background-repeat: no-repeat;
+    background-position: 48%,50%;
+}
+  form .inpt {
+    background-image: none;
+    font-size: .65rem
+}
+.animated_m{
+	&:hover
+		-webkit-transform: scale(1)
+		-ms-transform: scale(1)
+		transform: scale(1)
+		transition: all 1s ease
+		-webkit-animation-duration: 1s
+		animation-duration: 1s
+}
+}
+
+@media only screen and (max-width: 425px) {
+  footer{
+    margin-top: 965px
+  }
+  .section13 .up{
+    display: none;
+  }
+  .map{
+    display: none;
+  }
+  .section13 form .form .inpt{
+    width: 100%
+  }
+.section12 .sale a {
+    color: #fdca19;
+    font-family: "Neo Sans Pro";
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.125rem;
+    display: block;
+    cursor: pointer;
+    background-image: url(../img/arrow-left.png);
+    background-repeat: no-repeat;
+    background-position: 35%,50%;
+}
+  .section3 .slide .owl-carousel .owl-nav .owl-prev {
+      left: -15px;
+  }
+  .section3 .slide .owl-carousel .owl-nav .owl-next {
+      right: -15px;
+    }
+  .owl-carousel .owl-item img{
+    max-height: 125px
+  }
+  .section10 .slider .block_9{
+    display: none;
+  }
+  .section10 .slider .active {
+      width: 98%;
+      display: block;
+      left: 26%;
+  }
+  .section10 .before{
+    display: none;
+  }
+  .section10 .after{
+    display: none;
+  }
+  .section10 .mobile{
+    display: block;
+  }
+  .section10 .inpt{
+    margin-top: 70px;
+  }
+  .section10 .mobile {
+    margin-top: 20px;
+    width: 15%;
+    height: 15%;
+    display: block;
+    line-height: 4rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .section7 .slider .owl-nav{
+      margin-top: 50px
+    }
+
+
+.section2 .line{
+  z-index: -1
+}
+
+@media only screen and (max-width: 320px) {
+  .section12 .sale a {
+    background-position: 48%,50%;
+}
+}
+
+@media only screen and (max-width: 768px) {
+  .section12 .sale a {
+    background-position: 41%,50%;
+}
+}
