@@ -1,16 +1,12 @@
+
+
+
 @media only screen and (max-width: 768px) {
-    .img {
-        display: none;
-    }
     .sircle,.hidden{
       display: none;
     }
     .hidden-bg{
       background-image: url('../img/slidr_bg2222.png')
-    }
-    .section4 .calc_but{
-        left: 50%;
-        margin-left: -25%;
     }
     .section4 .summ{
       height: auto;
@@ -33,12 +29,6 @@
     .section4 h6{
       padding: 0 15px
     }
-    .section2 .form_item {
-      background-image: none
-    }
-    .section8{
-      background-image: none
-    }
     .section9 .bottom-text{
       padding: 0 15px
     }
@@ -51,19 +41,16 @@
     .section13 form .form .inpt{
       width: 60%
     }
-    .section12 .sale_2{
+    /* .section12 .sale_2{
       width: 280px;
       height: 280px
-    }
+    } */
     .section13 .up{
       width: 100%
     }
     .imgg{
       display: none;
     }
-    /* .section10 .slider .block_9{
-      display: none
-    } */
     .section10 .slider .small{
       display: none;
     }
@@ -83,23 +70,6 @@
       width: 50%;
       margin-left: -25%;
     }
-    /* .section10 .slider .block_9 {
-      height: 315px;
-      top: 0;
-      left: 0;
-      margin-top: -157.5px;
-      width: 99%;
-      margin: auto;
-      background-color: #f9f9f9;
-      -webkit-border-radius: 7px;
-      border-radius: 7px;
-      -webkit-box-shadow: 0 0 2.313rem rgba(46,44,38,.15);
-      box-shadow: 0 0 2.313rem rgba(46,44,38,.15);
-      position: absolute;
-      -webkit-background-size: cover;
-      background-size: cover;
-      background-repeat: no-repeat;
-    } */
   .section6 .item{
     position: relative;
     left: 0;
@@ -132,9 +102,6 @@
     margin-left: 30px
   }
 
-  .section7 .slider .owl-nav{
-    display: none;
-  }
   .section7 .all {
     color: #2ea9f7;
     font-family: "Neo Sans Pro";
@@ -143,28 +110,28 @@
     text-align: left;
     line-height: 5rem;
     text-decoration: underline;
-}
-.section11 ul li{
-  padding: 0 15px
-}
-.section11 .inform{
-  margin-left: 0
-}
-.section12 .sale a {
-    color: #fdca19;
-    font-family: "Neo Sans Pro";
-    font-size: .875rem;
-    font-weight: 400;
-    line-height: 1.125rem;
-    display: block;
-    cursor: pointer;
-    background-image: url(../img/arrow-left.png);
-    background-repeat: no-repeat;
-    background-position: 42%,50%;
-}
-.section12 .sale{
-  margin-bottom: 25px
-}
+  }
+  .section11 ul li{
+    padding: 0 15px
+  }
+  .section11 .inform{
+    margin-left: 0
+  }
+  .section12 .sale a {
+      color: #fdca19;
+      font-family: "Neo Sans Pro";
+      font-size: .875rem;
+      font-weight: 400;
+      line-height: 1.125rem;
+      display: block;
+      cursor: pointer;
+      background-image: url(../img/arrow-left.png);
+      background-repeat: no-repeat;
+      background-position: 42%,50%;
+  }
+  .section12 .sale{
+    margin-bottom: 25px
+  }
 
 
 }
@@ -189,9 +156,6 @@
     background-repeat: no-repeat;
     background-position: 30%,50%;
   }
-  header .img {
-    margin-top: 41.5%;
-  }
   .section4 .slot {
     height: auto;
   }
@@ -199,9 +163,6 @@
     position: absolute;
     top: -25%;
     left: -15%;
-}
-.section7 .slider .owl-nav{
-  margin-top: 11px
 }
 }
 
@@ -222,14 +183,14 @@
     background-image: none;
     font-size: .65rem
 }
-.animated_m{
-	&:hover
-		-webkit-transform: scale(1)
-		-ms-transform: scale(1)
-		transform: scale(1)
-		transition: all 1s ease
-		-webkit-animation-duration: 1s
-		animation-duration: 1s
+
+.animated_m:hover{
+		-webkit-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
+		transition: all 1s ease;
+		-webkit-animation-duration: 1s;
+		animation-duration: 1s;
 }
 }
 
@@ -238,9 +199,6 @@
     margin-top: 965px
   }
   .section13 .up{
-    display: none;
-  }
-  .map{
     display: none;
   }
   .section13 form .form .inpt{
@@ -284,12 +242,9 @@
   .section10 .mobile{
     display: block;
   }
-  .section10 .inpt{
-    margin-top: 70px;
-  }
   .section10 .mobile {
     margin-top: 20px;
-    width: 15%;
+    width: 0;
     height: 15%;
     display: block;
     line-height: 4rem;
@@ -297,10 +252,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-
-    .section7 .slider .owl-nav{
-      margin-top: 50px
-    }
 
 
 .section2 .line{
