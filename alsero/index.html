@@ -30,6 +30,22 @@
 </head>
 
 <body>
+	<div id="wpfc-rb-loading" style="background-color: rgb(254, 254, 254);bottom: 0px;height: 100%;left: 0px;position: fixed;right: 0px;top: 0px;width: 100%;z-index: 99999;overflow: hidden !important;/* visibility: hidden; */"><style>#wpfc-rb-spinner-6{margin:0 auto;top:50%;width:40px;height:40px;position:relative;text-align:center;-webkit-animation:sk-rotate 2.0s infinite linear;animation:sk-rotate 2.0s infinite linear;}
+	.dot1,.dot2{width:60%;height:60%;display:inline-block;position:absolute;top:0;background-color:#fdca19;border-radius:100%;-webkit-animation:sk-bounce 2.0s infinite ease-in-out;animation:sk-bounce 2.0s infinite ease-in-out;}
+	.dot2{top:auto;bottom:0;-webkit-animation-delay:-1.0s;animation-delay:-1.0s;}
+	@-webkit-keyframes sk-rotate{100%{-webkit-transform:rotate(360deg)}}@keyframes sk-rotate{100%{transform:rotate(360deg);-webkit-transform:rotate(360deg)}}@-webkit-keyframes sk-bounce{0%,100%{-webkit-transform:scale(0.0)}
+	50%{-webkit-transform:scale(1.0)}}@keyframes sk-bounce{0%,100%{transform:scale(0.0);-webkit-transform:scale(0.0);}
+	50%{transform:scale(1.0);-webkit-transform:scale(1.0);}}</style> <div id="wpfc-rb-spinner-6"> <div class="dot1"></div><div class="dot2"></div></div></div>
+	<div class="w_m">
+		<div class="content">
+			<div class="but_close w_close h_pulse"><i class="fa fa-times" aria-hidden="true"></i></div>
+			<div class="sircle">
+				<i class="fas fa-check"></i>
+			</div>
+			<h3>Ваша заявка отправлена!</h3>
+			<p>В течение минуты наш менеджер свяжется с Вами.</p>
+		</div>
+	</div>
 	<div class="burger-menu">
 	  <div class="burger"></div>
 	</div>
@@ -37,7 +53,7 @@
 				<ul>
 						<li class="animated h_pulse menu_a"><a href="#calc">КАЛЬКУЛЯТОР РЕМОНТА</a></li>
 						<li class="animated h_pulse menu_a"><a href="#how_many">ЦЕНЫ</a></li>
-						<li class="animated h_pulse menu_a"><a href="#preem">НАШИ ПРЕИМУЩЕСТВА</a></li>
+						<li class="animated h_pulse menu_a mobile"><a href="#preem">НАШИ ПРЕИМУЩЕСТВА</a></li>
 						<li class="animated h_pulse menu_a"><a href="#rabots">НАШИ РАБОТЫ</a></li>
 						<li class="animated h_pulse menu_a"><a href="#otziv">ОТЗЫВЫ</a></li>
 						<li class="animated h_pulse menu_a"><a href="#s_12">СКИДКИ</a></li>
@@ -45,12 +61,12 @@
 				</ul>
 		</div>
 	<header id="header">
-		<img class="img img-responsive" src="./img/header2.png" alt="">
+		<img style="display: none" class="img img-responsive" src="./img/header2.png" alt="">
 		<img class="img-m img-responsive" src="./img/header-m.png" alt="">
 		<div class="container">
 			<div class="row menu justify-content-md-center">
 				<div class="col-md-6 col-lg-2  col-xl-2">
-					<img class="logo" src="./img/logo.png" alt="">
+					<a class="logo" href="/"><img src="./img/logo.png" alt=""></a>
 				</div>
 				<div class="col-md-6 col-lg-7 col-xl-8 address align-self-center">
 					<p>
@@ -72,6 +88,9 @@
 							</div>
 							<div class="button2 animated_video">
 								<a href="#video">Посмотреть видео о нас</a>
+							</div>
+							<div class="animated_video button2_m">
+								<a href="#video"></a>
 							</div>
 						</div>
 					</div>
@@ -388,8 +407,6 @@
 			<div class="row justify-content-md-center  hidden">
 				<div class="hidden-md-down col-lg-3 center">
 					<img src="./img/m_2.png">
-					<h1>ALSERO</h1>
-					<h3>РЕМОНТ ПОМЕЩЕНИЙ</h3>
 				</div>
 			</div>
 			<div class="row justify-content-md-center hidden">
@@ -471,7 +488,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="section8">
+	<section class="section8" id="win_input">
 		<div class="container">
 			<div class="row justify-content-md-center">
 				<div class="col-md-8 col-lg-4 form">
@@ -699,7 +716,7 @@
 								<p>8 (800) 511-87-04</p>
 								<p>info@alserostroy.ru</p>
 							</div>
-							<a class="btn animated" href="">Написать нам</a>
+							<a class="btn animated" href="#win_input">Написать нам</a>
 						</div>
 					</div>
 			</div>
@@ -738,16 +755,16 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-2 col-lg-3">
-					<img class="logo" src="./img/logo.png" alt="">
+					<a class="logo" href="/"><img class="" src="./img/logo.png" alt=""></a>
 				</div>
-				<div class="col-md-3 offset-md-7 col-lg-3 offset-lg-6">
+				<div class="col-md-3 offset-md-7 col-lg-3 col-xl-2 offset-xl-7 offset-lg-6">
 					<p class="phone">8 (499) 404-21-15</p>
-					<a href="#win_input" class="callback animated">Заказать дзвонок</a>
+					<a href="#win_input" class="callback animated">Заказать звонок</a>
 				</div>
 			</div>
 		</div>
 	</footer>
-	<!-- <section id="video" class="video" style="display : none">
+	<section id="video" class="video" style="display : none">
 		<div class="container video_container">
 			<div class="row">
 				<div class="col-md-12">
@@ -756,7 +773,7 @@
 				</div>
 			</div>
 		</div>
-	</section> -->
+	</section>
 
 
 	<script src="js/scripts.min.js"></script>
