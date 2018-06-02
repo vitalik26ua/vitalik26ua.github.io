@@ -19,7 +19,7 @@
 	<!-- Template Basic Images End -->
 
 	<!-- Custom Browsers Color Start -->
-	<meta name="theme-color" content="#000">
+	<meta name="theme-color" content="#18bde4">
 	<!-- Custom Browsers Color End -->
 
 	<link rel="stylesheet" href="css/main.min.css">
@@ -52,7 +52,7 @@
 
 	<section class="po1">
 		<div class="container">
-			<div class="row align-items-center">
+			<div class="row align-items-center po1">
 				<div class="col-md-6 order-last order-md-first">
 					<h1>The new way of building<br>mobile apps.</h1>
 					<p>Creating mobile apps without code is <b>faster</b>, <b>easier</b> and <b>more affordable</b>. Just select from one of our starter templates, modify anything you need and launch within days!</p>
@@ -66,7 +66,7 @@
 
 	<section class="po2">
 		<div class="container">
-			<div class="row align-items-center">
+			<div class="row align-items-center po2">
 				<div class="col-md-6">
 					<img src="./img/drag-and-drop.png" alt="drag-and-drop" class="img-responsive ma">
 				</div>
@@ -81,7 +81,7 @@
 
 	<section class="po3">
 		<div class="container">
-			<div class="row align-items-center">
+			<div class="row align-items-center po3">
 				<div class="col-md-12">
 					<h1>Get straight to building apps</h1>
 					<p>Setting up, operating and maintaining your own <br>platform is not where the race is won.</p>
@@ -97,7 +97,7 @@
 
 	<section class="po4">
 		<div class="container">
-			<div class="row justify-content-md-center">
+			<div class="row justify-content-md-center align-items-center po4">
 				<div class="col-md-12">
 					<h1>The Benefits to Your Customers</h1>
 				</div>
@@ -130,34 +130,43 @@
 	</section>
 
 	<section class="po5">
+		<div id="qrcode"></div>
 		<div class="container">
-			<div class="row po5">
+			<div class="row po5 justify-content-md-center align-items-center">
 				<div class="col-md-12">
 					<h1>Test your app in real time on any devices</h1>
 					<p>KickApp Builder lets you see the apps you create on your device in seconds while you’re creating it. <br>Simply download one of the Previewer apps using your account and start testing out your native app.</p>
 				</div>
-				<div class="col-md-3 po5-item" style="background-Image: url(./img/iphone.png)">
+				<div class="col-md-3 po5-item">
+					<img src="./img/iphone.png" alt="iphone" class="img-responsive device-img">
+					<img src="./img/iphone_platform.png" alt="iphone" class="img-responsive platform-img">
 					<div class="nav">
-						<a class="app_but" href="#">Get Link</a>
-						<div class="app_but qr">Get QR Code</div>
+						<a class="app_but" href="#" target="_blank">Get Link</a>
+						<div class="app_but qr" data-url='google.com'>Get QR Code</div>
 					</div>
 				</div>
-				<div class="col-md-3 po5-item" style="background-Image: url(./img/iphone.png)">
+				<div class="col-md-3 po5-item">
+					<img src="./img/Samsung-galaxy-s8.png" alt="android" class="img-responsive device-img">
+					<img src="./img/android_platform.png" alt="android" class="img-responsive platform-img">
 					<div class="nav">
-						<a class="app_but" href="#">Get Link</a>
-						<div class="app_but qr">Get QR Code</div>
+						<a class="app_but" href="#" target="_blank">Get Link</a>
+						<div class="app_but qr" data-url='google.com'>Get QR Code</div>
 					</div>
 				</div>
-				<div class="col-md-3 po5-item" style="background-Image: url(./img/iphone.png)">
+				<div class="col-md-3 po5-item">
+					<img src="./img/iPad.png" alt="iPad" class="img-responsive device-img">
+					<img src="./img/iPad_platform.png" alt="iPad" class="img-responsive platform-img">
 					<div class="nav">
-						<a class="app_but" href="#">Get Link</a>
-						<div class="app_but qr">Get QR Code</div>
+						<a class="app_but" href="#" target="_blank">Get Link</a>
+						<div class="app_but qr" data-url='google.com'>Get QR Code</div>
 					</div>
 				</div>
-				<div class="col-md-3 po5-item" style="background-Image: url(./img/iphone.png)">
+				<div class="col-md-3 po5-item">
+					<img src="./img/Ebook.png" alt="Ebook" class="img-responsive device-img">
+					<img src="./img/Ebook_platform.png" alt="Ebook" class="img-responsive platform-img">
 					<div class="nav">
-						<a class="app_but" href="#">Get Link</a>
-						<div class="app_but qr">Get QR Code</div>
+						<a class="app_but" href="#" target="_blank">Get Link</a>
+						<div class="app_but qr" data-url='google.com'>Get QR Code</div>
 					</div>
 				</div>
 			</div>
@@ -166,7 +175,7 @@
 
 	<section class="po6">
 		<div class="container">
-			<div class="row">
+			<div class="row po6_ justify-content-md-center align-items-center">
 				<div class="col-md-12 items">
 					<h1>What kind of Apps you can build?</h1>
 				</div>
@@ -290,7 +299,7 @@
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3">
+				<div class="col-md-3 footer_l1">
 					<a href="/" class="logo">
 						<img src="./img/logo.png" alt="KickApp" class="img-responsive">
 					</a>
@@ -306,14 +315,14 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-md-2">
+				<div class="col-md-2 list">
 					<a  href="">Products & Features</a>
 					<a  href="">Prices</a>
 					<a  href="">Templates</a>
 					<a  href="">My Account</a>
 					<a  href="">My Apps</a>
 				</div>
-				<div class="col-md-2">
+				<div class="col-md-2 list">
 					<a href="">Support</a>
 					<a href="">F.A.Q</a>
 					<a href="">Supported</a>
